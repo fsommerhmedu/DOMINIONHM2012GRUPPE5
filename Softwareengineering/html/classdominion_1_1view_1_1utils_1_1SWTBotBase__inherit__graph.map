@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classdominion_1_1view_1_1GameScreenTest.html" title="{dominion.view.GameScreenTest\n||+ setUp()\l+ testActionCards()\l+ testHandCards()\l+ testButtonNext()\l+ testButtonEnd()\l+ testBuy()\l+ testBuyNoMoney()\l+ testBuyNoPurchase()\l+ tearDown()\l}" alt="" coords="5,399,216,623"/>
+<area shape="rect" id="node5" href="$classdominion_1_1view_1_1MessageDialogTest.html" title="{dominion.view.MessageDialogTest\n||+ setUp()\l+ testMessageDialogOk()\l+ testMessageDialogYes()\l+ testMessageDialogNo()\l}" alt="" coords="240,442,464,579"/>
+<area shape="rect" id="node7" href="$classdominion_1_1view_1_1SelectCardsTest.html" title="{dominion.view.SelectCardsTest\n||+ setUp()\l+ testCheckboxesEnabled()\l+ testCheckboxesDisable()\l+ testNextDisabled()\l+ testNextEnabled()\l+ testCheckboxHoverImage()\l+ tearDown()\l}" alt="" coords="488,416,693,605"/>
+<area shape="rect" id="node9" href="$classdominion_1_1view_1_1SelectPlayersTest.html" title="{dominion.view.SelectPlayersTest\n||+ setUp()\l+ testNext()\l+ testSelect()\l+ testSelect2()\l+ testSelect3()\l+ testSelect4()\l+ testTexts2()\l+ testTexts3()\l+ testTexts4()\l+ testEnterName2()\land 5 more...}" alt="" coords="717,381,933,640"/>
+</map>

@@ -1,0 +1,442 @@
+\hypertarget{interfacedominion_1_1model_1_1Player}{\section{dominion.\-model.\-Player \-Interface \-Reference}
+\label{interfacedominion_1_1model_1_1Player}\index{dominion.\-model.\-Player@{dominion.\-model.\-Player}}
+}
+
+
+\-Inheritance diagram for dominion.\-model.\-Player\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{interfacedominion_1_1model_1_1Player__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\-String \hyperlink{interfacedominion_1_1model_1_1Player_abe7318f98aa380aa223ff4e89d52a083}{get\-Name} ()
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Player_a82349da9ab8e0a25b35bdb331bbe572f}{add\-Actions} (int action\-Points)
+\item 
+int \hyperlink{interfacedominion_1_1model_1_1Player_abf2fcead53204e67de449987700478fd}{get\-Action\-Counter} ()
+\item 
+int \hyperlink{interfacedominion_1_1model_1_1Player_a1e6e9fbcd45aae1db183444f5d62bde8}{get\-Purchase\-Counter} ()
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Player_af01fdbc3e5cbb962b01abf1e04550770}{add\-Purchase} (int number\-Purchase)
+\item 
+\-List$<$ \hyperlink{interfacedominion_1_1model_1_1cards_1_1Card}{\-Card} $>$ \hyperlink{interfacedominion_1_1model_1_1Player_aa52354950cfd3a2c8661db77930dc714}{get\-Cards\-On\-Hand} ()
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Player_ad3742952187ffc677d85c70812598cef}{throw\-Cards\-On\-Hand\-Away} ()
+\item 
+\hyperlink{interfacedominion_1_1model_1_1cards_1_1Card}{\-Card} \hyperlink{interfacedominion_1_1model_1_1Player_a049bd1e65ec5d2fb3fb4d773000ab8c2}{get\-Uppest\-Card} ()
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Player_a2123620ca336d06a975a6c32edb1fc21}{add\-Card\-To\-Cards} (\hyperlink{interfacedominion_1_1model_1_1cards_1_1Card}{\-Card} card)
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Player_a564318ab4c9313d4662b174cb58df5a8}{move\-Played\-Cards\-To\-Cards} ()
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Player_adfabfa09d6695003a446f4668d42088a}{add\-Card\-To\-Hand} (\hyperlink{interfacedominion_1_1model_1_1cards_1_1Card}{\-Card} card)
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Player_a864f7fa0a08f02d5bff3108230a11f88}{add\-Card\-To\-Played\-Cards} (\hyperlink{interfacedominion_1_1model_1_1cards_1_1Card}{\-Card} card)
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Player_a2ba21ea747daad8f0e3fea5faabbd64d}{throw\-Cards\-Away} ()
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Player_a6f89626c06020b31b22663899d7b5e78}{throw\-Card\-From\-Hand\-Away} (int index)
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Player_a5c260928aa98f03a4fbf16293cf2ed8c}{delete\-Card\-From\-Hand} (int index)
+\item 
+\-List$<$ \hyperlink{interfacedominion_1_1model_1_1cards_1_1Card}{\-Card} $>$ \hyperlink{interfacedominion_1_1model_1_1Player_a6a0a95096793642b9e27299d680871d1}{get\-Cards} ()
+\item 
+int \hyperlink{interfacedominion_1_1model_1_1Player_a5d7c60103c8cdc1d554c5ea2cbd8ca09}{get\-Money} ()
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Player_a9ebfab0b520b974c324aeea20a606209}{add\-Money} (int m)
+\item 
+int \hyperlink{interfacedominion_1_1model_1_1Player_a737217e1afed7e658efe8e5ba25d8844}{get\-Number\-All\-Cards} ()
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Player_a878ebb2459797afe157db2fa00426ac2}{reset\-Player} ()
+\item 
+\hyperlink{interfacedominion_1_1model_1_1cards_1_1Card}{\-Card} \hyperlink{interfacedominion_1_1model_1_1Player_a74c0ee666159253c148ccec1f2c803ac}{get\-Uppest\-Played\-Card} ()
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Player_a97dfd3f7e3d9ee103745a8ba34301536}{add\-Used\-Action\-Card} (\hyperlink{interfacedominion_1_1model_1_1cards_1_1Card}{\-Card} card)
+\item 
+boolean \hyperlink{interfacedominion_1_1model_1_1Player_a43b432d2b74cc59b306b9e555627ba8c}{compare\-Used\-Action\-Card} (final \hyperlink{interfacedominion_1_1model_1_1cards_1_1Card}{\-Card} card)
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{interfacedominion_1_1model_1_1Player_a7c4c23c4860b3a785a9bc2cf010a8a3d}{\-B\-E\-G\-I\-N\-\_\-\-P\-U\-R\-C\-H\-A\-S\-E} = 1
+\item 
+int \hyperlink{interfacedominion_1_1model_1_1Player_ae528cf48cc76626325e6a77b183bfa1a}{\-C\-O\-O\-P\-E\-R\-\_\-\-T\-O\-\_\-\-A\-D\-D} = 7
+\item 
+int \hyperlink{interfacedominion_1_1model_1_1Player_a332beaafb8b0f1c569d512bcdb7e3790}{\-S\-T\-A\-R\-T\-\_\-\-C\-A\-R\-D\-\_\-\-C\-O\-U\-N\-T} = 5
+\item 
+int \hyperlink{interfacedominion_1_1model_1_1Player_ae50f344d32fbc00a964ad8afcc2980d5}{\-V\-I\-C\-T\-O\-R\-Y\-\_\-\-C\-A\-R\-D\-S\-\_\-\-T\-O\-\_\-\-A\-D\-D} = 3
+\item 
+int \hyperlink{interfacedominion_1_1model_1_1Player_a802b8993525e3b4366b1ca31a14e3f7e}{\-B\-E\-G\-I\-N\-\_\-\-A\-C\-T\-I\-O\-N} = 1
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Ein \-Spieler.
+
+\begin{DoxyAuthor}{\-Author}
+\-Moe 
+\end{DoxyAuthor}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{interfacedominion_1_1model_1_1Player_a82349da9ab8e0a25b35bdb331bbe572f}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!add\-Actions@{add\-Actions}}
+\index{add\-Actions@{add\-Actions}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{add\-Actions}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Player.\-add\-Actions} (
+\begin{DoxyParamCaption}
+\item[{int}]{action\-Points}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_a82349da9ab8e0a25b35bdb331bbe572f}
+\-Anzahl an \-Actionen die dem \-Spieler hinzugefügt werden sollen.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em action\-Points} & \-Actionen die hinzugefügt werden sollen \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacedominion_1_1model_1_1Player_a2123620ca336d06a975a6c32edb1fc21}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!add\-Card\-To\-Cards@{add\-Card\-To\-Cards}}
+\index{add\-Card\-To\-Cards@{add\-Card\-To\-Cards}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{add\-Card\-To\-Cards}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Player.\-add\-Card\-To\-Cards} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Card}}]{card}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_a2123620ca336d06a975a6c32edb1fc21}
+\-Fügt die \-Karte an das \-Ende des \-Nachziehstapels.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em card} & \-Karte die hinzugefügt werden soll. \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacedominion_1_1model_1_1Player_adfabfa09d6695003a446f4668d42088a}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!add\-Card\-To\-Hand@{add\-Card\-To\-Hand}}
+\index{add\-Card\-To\-Hand@{add\-Card\-To\-Hand}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{add\-Card\-To\-Hand}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Player.\-add\-Card\-To\-Hand} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Card}}]{card}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_adfabfa09d6695003a446f4668d42088a}
+\-Fügt eine \-Karte zur \-Hand hinzu.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em card} & \-Karte die zur \-Hand hinzugefügt werden soll \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacedominion_1_1model_1_1Player_a864f7fa0a08f02d5bff3108230a11f88}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!add\-Card\-To\-Played\-Cards@{add\-Card\-To\-Played\-Cards}}
+\index{add\-Card\-To\-Played\-Cards@{add\-Card\-To\-Played\-Cards}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{add\-Card\-To\-Played\-Cards}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Player.\-add\-Card\-To\-Played\-Cards} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Card}}]{card}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_a864f7fa0a08f02d5bff3108230a11f88}
+\-Fügt die \-Karte zum \-Ablagestapel.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em card} & \-Karte zum \-Ablagestapel. \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacedominion_1_1model_1_1Player_a9ebfab0b520b974c324aeea20a606209}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!add\-Money@{add\-Money}}
+\index{add\-Money@{add\-Money}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{add\-Money}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Player.\-add\-Money} (
+\begin{DoxyParamCaption}
+\item[{int}]{m}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_a9ebfab0b520b974c324aeea20a606209}
+\-Addiert m \-Geld auf das verfügbare \-Spielgeld.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em m} & \-Geld das hinzugefügt wird. \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacedominion_1_1model_1_1Player_af01fdbc3e5cbb962b01abf1e04550770}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!add\-Purchase@{add\-Purchase}}
+\index{add\-Purchase@{add\-Purchase}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{add\-Purchase}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Player.\-add\-Purchase} (
+\begin{DoxyParamCaption}
+\item[{int}]{number\-Purchase}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_af01fdbc3e5cbb962b01abf1e04550770}
+\-Hinzufügen von \-Käufen.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em number\-Purchase} & \-Anzahl an \-Käufen \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacedominion_1_1model_1_1Player_a97dfd3f7e3d9ee103745a8ba34301536}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!add\-Used\-Action\-Card@{add\-Used\-Action\-Card}}
+\index{add\-Used\-Action\-Card@{add\-Used\-Action\-Card}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{add\-Used\-Action\-Card}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Player.\-add\-Used\-Action\-Card} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Card}}]{card}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_a97dfd3f7e3d9ee103745a8ba34301536}
+\-Benutzte \-Actionkarte hinzufügen. 
+\begin{DoxyParams}{\-Parameters}
+{\em card} & \-Karte \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacedominion_1_1model_1_1Player_a43b432d2b74cc59b306b9e555627ba8c}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!compare\-Used\-Action\-Card@{compare\-Used\-Action\-Card}}
+\index{compare\-Used\-Action\-Card@{compare\-Used\-Action\-Card}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{compare\-Used\-Action\-Card}]{\setlength{\rightskip}{0pt plus 5cm}boolean {\bf dominion.\-model.\-Player.\-compare\-Used\-Action\-Card} (
+\begin{DoxyParamCaption}
+\item[{final {\bf \-Card}}]{card}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_a43b432d2b74cc59b306b9e555627ba8c}
+\-Vergleichen, ob \-Action\-Card schon hinzugefügt wurde. 
+\begin{DoxyParams}{\-Parameters}
+{\em card} & \-Karte, die verglichen werden soll \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+true, wenn \-Karte schon vorhanden 
+\end{DoxyReturn}
+
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1PlayerImpl_a622b9a533b0858f94e1e36e692c54ad6}{dominion.\-model.\-Player\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Player_a5c260928aa98f03a4fbf16293cf2ed8c}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!delete\-Card\-From\-Hand@{delete\-Card\-From\-Hand}}
+\index{delete\-Card\-From\-Hand@{delete\-Card\-From\-Hand}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{delete\-Card\-From\-Hand}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Player.\-delete\-Card\-From\-Hand} (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_a5c260928aa98f03a4fbf16293cf2ed8c}
+\-Entfernt eine \-Karte von der \-Hand.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em index} & \-Index der \-Karte. \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacedominion_1_1model_1_1Player_abf2fcead53204e67de449987700478fd}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!get\-Action\-Counter@{get\-Action\-Counter}}
+\index{get\-Action\-Counter@{get\-Action\-Counter}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{get\-Action\-Counter}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf dominion.\-model.\-Player.\-get\-Action\-Counter} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_abf2fcead53204e67de449987700478fd}
+\-Getter für die \-Aktionen die der \-Spieler noch zu \-Verfügung hat.
+
+\begin{DoxyReturn}{\-Returns}
+\-Aktionen die der \-Spieler im aktuellen \-Zug hat 
+\end{DoxyReturn}
+
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1PlayerImpl_ae05d84225a6275c0226502b51d59f0fb}{dominion.\-model.\-Player\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Player_a6a0a95096793642b9e27299d680871d1}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!get\-Cards@{get\-Cards}}
+\index{get\-Cards@{get\-Cards}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{get\-Cards}]{\setlength{\rightskip}{0pt plus 5cm}\-List$<${\bf \-Card}$>$ {\bf dominion.\-model.\-Player.\-get\-Cards} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_a6a0a95096793642b9e27299d680871d1}
+\-Getter für den \-Nachziehstapel.
+
+\begin{DoxyReturn}{\-Returns}
+\-List der \-Karten. 
+\end{DoxyReturn}
+
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1PlayerImpl_ab9dfd2a2f577ba3593943c21ecc4d96e}{dominion.\-model.\-Player\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Player_aa52354950cfd3a2c8661db77930dc714}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!get\-Cards\-On\-Hand@{get\-Cards\-On\-Hand}}
+\index{get\-Cards\-On\-Hand@{get\-Cards\-On\-Hand}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{get\-Cards\-On\-Hand}]{\setlength{\rightskip}{0pt plus 5cm}\-List$<${\bf \-Card}$>$ {\bf dominion.\-model.\-Player.\-get\-Cards\-On\-Hand} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_aa52354950cfd3a2c8661db77930dc714}
+\-Liste der \-Karten, die der \-Spieler gerade auf der \-Hand hat.
+
+\begin{DoxyReturn}{\-Returns}
+\-Liste der \-Karten, die der \-Spieler gerade auf der \-Hand hat. 
+\end{DoxyReturn}
+
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1PlayerImpl_a3d8b4ba7a5aef3a082cec886953e310f}{dominion.\-model.\-Player\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Player_a5d7c60103c8cdc1d554c5ea2cbd8ca09}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!get\-Money@{get\-Money}}
+\index{get\-Money@{get\-Money}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{get\-Money}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf dominion.\-model.\-Player.\-get\-Money} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_a5d7c60103c8cdc1d554c5ea2cbd8ca09}
+\-Getter für das aktuelle verfügbare \-Spielgeld.
+
+\begin{DoxyReturn}{\-Returns}
+int aktuelles \-Geld. 
+\end{DoxyReturn}
+
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1PlayerImpl_a81d5c283602362acad1e0403806711a9}{dominion.\-model.\-Player\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Player_abe7318f98aa380aa223ff4e89d52a083}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!get\-Name@{get\-Name}}
+\index{get\-Name@{get\-Name}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{get\-Name}]{\setlength{\rightskip}{0pt plus 5cm}\-String {\bf dominion.\-model.\-Player.\-get\-Name} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_abe7318f98aa380aa223ff4e89d52a083}
+\-Gibt den \-Namen des \-Spieler zurück.
+
+\begin{DoxyReturn}{\-Returns}
+\-Name des \-Spielers. 
+\end{DoxyReturn}
+
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1PlayerImpl_a6df3ee42991c6d3f18c43f54bdaa8658}{dominion.\-model.\-Player\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Player_a737217e1afed7e658efe8e5ba25d8844}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!get\-Number\-All\-Cards@{get\-Number\-All\-Cards}}
+\index{get\-Number\-All\-Cards@{get\-Number\-All\-Cards}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{get\-Number\-All\-Cards}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf dominion.\-model.\-Player.\-get\-Number\-All\-Cards} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_a737217e1afed7e658efe8e5ba25d8844}
+\-Getter für die \-Gesamtanzahl aller \-Karten.
+
+\begin{DoxyReturn}{\-Returns}
+\-Gesamtanzahl aller \-Karten 
+\end{DoxyReturn}
+
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1PlayerImpl_a83864a29d4ba418be35dd1c35fefd7ef}{dominion.\-model.\-Player\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Player_a1e6e9fbcd45aae1db183444f5d62bde8}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!get\-Purchase\-Counter@{get\-Purchase\-Counter}}
+\index{get\-Purchase\-Counter@{get\-Purchase\-Counter}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{get\-Purchase\-Counter}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf dominion.\-model.\-Player.\-get\-Purchase\-Counter} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_a1e6e9fbcd45aae1db183444f5d62bde8}
+\-Getter für die noch zur \-Verfügung stehenden \-Käufe.
+
+\begin{DoxyReturn}{\-Returns}
+\-Anzahl an \-Käufe 
+\end{DoxyReturn}
+
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1PlayerImpl_a1af465bde2c226d74529b48e9a605214}{dominion.\-model.\-Player\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Player_a049bd1e65ec5d2fb3fb4d773000ab8c2}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!get\-Uppest\-Card@{get\-Uppest\-Card}}
+\index{get\-Uppest\-Card@{get\-Uppest\-Card}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{get\-Uppest\-Card}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Card} {\bf dominion.\-model.\-Player.\-get\-Uppest\-Card} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_a049bd1e65ec5d2fb3fb4d773000ab8c2}
+\-Gibt die nächste \-Karte vom \-Nachziehstapel zurück.
+
+\-Wenn der \-Nachziehstapel leer ist, dann wird der \-Ablagestapel wieder zum \-Nachziehstapel.
+
+\-Die \-Karte vom \-Nachziehstapel wird gelöscht.
+
+\begin{DoxyReturn}{\-Returns}
+\-Nächste \-Karte 
+\end{DoxyReturn}
+
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1PlayerImpl_a9dda36c19ac09d58b18acdf679929a8f}{dominion.\-model.\-Player\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Player_a74c0ee666159253c148ccec1f2c803ac}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!get\-Uppest\-Played\-Card@{get\-Uppest\-Played\-Card}}
+\index{get\-Uppest\-Played\-Card@{get\-Uppest\-Played\-Card}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{get\-Uppest\-Played\-Card}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Card} {\bf dominion.\-model.\-Player.\-get\-Uppest\-Played\-Card} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_a74c0ee666159253c148ccec1f2c803ac}
+\-Gibt die oben liegende \-Karte vom \-Ablagestapel zurück. \begin{DoxyReturn}{\-Returns}
+oberte \-Karte oder null, wenn \-Stapel leer 
+\end{DoxyReturn}
+
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1PlayerImpl_a1ae6f2bb37741a67aef2cfef92867d64}{dominion.\-model.\-Player\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Player_a564318ab4c9313d4662b174cb58df5a8}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!move\-Played\-Cards\-To\-Cards@{move\-Played\-Cards\-To\-Cards}}
+\index{move\-Played\-Cards\-To\-Cards@{move\-Played\-Cards\-To\-Cards}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{move\-Played\-Cards\-To\-Cards}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Player.\-move\-Played\-Cards\-To\-Cards} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_a564318ab4c9313d4662b174cb58df5a8}
+\-Verschiebt alle \-Karten vom \-Ablagestapel zum \-Nachziehstapel. 
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1PlayerImpl_a2e9a729d49decc7fa2e357ba38604b77}{dominion.\-model.\-Player\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Player_a878ebb2459797afe157db2fa00426ac2}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!reset\-Player@{reset\-Player}}
+\index{reset\-Player@{reset\-Player}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{reset\-Player}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Player.\-reset\-Player} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_a878ebb2459797afe157db2fa00426ac2}
+\-Setzt die \-Werte des \-Spielers auf die \-Standards zurück. 
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1PlayerImpl_a6e7399dd21bb5a32dd4e48762a1b5d8c}{dominion.\-model.\-Player\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Player_a6f89626c06020b31b22663899d7b5e78}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!throw\-Card\-From\-Hand\-Away@{throw\-Card\-From\-Hand\-Away}}
+\index{throw\-Card\-From\-Hand\-Away@{throw\-Card\-From\-Hand\-Away}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{throw\-Card\-From\-Hand\-Away}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Player.\-throw\-Card\-From\-Hand\-Away} (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_a6f89626c06020b31b22663899d7b5e78}
+\-Legt die \-Karte mit dem \-Index i von der \-Hand auf den \-Ablagestapel.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em index} & \-Index der \-Karte. \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacedominion_1_1model_1_1Player_a2ba21ea747daad8f0e3fea5faabbd64d}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!throw\-Cards\-Away@{throw\-Cards\-Away}}
+\index{throw\-Cards\-Away@{throw\-Cards\-Away}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{throw\-Cards\-Away}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Player.\-throw\-Cards\-Away} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_a2ba21ea747daad8f0e3fea5faabbd64d}
+\-Alle \-Karten vom \-Nachziehstapel zum \-Ablagestapel. 
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1PlayerImpl_ae83bb27e00bbf8ac31a429f9b05194f4}{dominion.\-model.\-Player\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Player_ad3742952187ffc677d85c70812598cef}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!throw\-Cards\-On\-Hand\-Away@{throw\-Cards\-On\-Hand\-Away}}
+\index{throw\-Cards\-On\-Hand\-Away@{throw\-Cards\-On\-Hand\-Away}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{throw\-Cards\-On\-Hand\-Away}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Player.\-throw\-Cards\-On\-Hand\-Away} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Player_ad3742952187ffc677d85c70812598cef}
+\-Legt alle \-Karten, die der \-Spieler auf der \-Hand hat, oben auf den \-Ablagestapel. 
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1PlayerImpl_a3eea1f08b10c540858a09e2180e15c9d}{dominion.\-model.\-Player\-Impl}.
+
+
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{interfacedominion_1_1model_1_1Player_a802b8993525e3b4366b1ca31a14e3f7e}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!\-B\-E\-G\-I\-N\-\_\-\-A\-C\-T\-I\-O\-N@{\-B\-E\-G\-I\-N\-\_\-\-A\-C\-T\-I\-O\-N}}
+\index{\-B\-E\-G\-I\-N\-\_\-\-A\-C\-T\-I\-O\-N@{\-B\-E\-G\-I\-N\-\_\-\-A\-C\-T\-I\-O\-N}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{\-B\-E\-G\-I\-N\-\_\-\-A\-C\-T\-I\-O\-N}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf dominion.\-model.\-Player.\-B\-E\-G\-I\-N\-\_\-\-A\-C\-T\-I\-O\-N} = 1}}\label{interfacedominion_1_1model_1_1Player_a802b8993525e3b4366b1ca31a14e3f7e}
+\-Anzahl der \-Aktionen zu \-Begin eines \-Spielzuges. \hypertarget{interfacedominion_1_1model_1_1Player_a7c4c23c4860b3a785a9bc2cf010a8a3d}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!\-B\-E\-G\-I\-N\-\_\-\-P\-U\-R\-C\-H\-A\-S\-E@{\-B\-E\-G\-I\-N\-\_\-\-P\-U\-R\-C\-H\-A\-S\-E}}
+\index{\-B\-E\-G\-I\-N\-\_\-\-P\-U\-R\-C\-H\-A\-S\-E@{\-B\-E\-G\-I\-N\-\_\-\-P\-U\-R\-C\-H\-A\-S\-E}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{\-B\-E\-G\-I\-N\-\_\-\-P\-U\-R\-C\-H\-A\-S\-E}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf dominion.\-model.\-Player.\-B\-E\-G\-I\-N\-\_\-\-P\-U\-R\-C\-H\-A\-S\-E} = 1}}\label{interfacedominion_1_1model_1_1Player_a7c4c23c4860b3a785a9bc2cf010a8a3d}
+\-Käufe zu \-Beginn. \hypertarget{interfacedominion_1_1model_1_1Player_ae528cf48cc76626325e6a77b183bfa1a}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!\-C\-O\-O\-P\-E\-R\-\_\-\-T\-O\-\_\-\-A\-D\-D@{\-C\-O\-O\-P\-E\-R\-\_\-\-T\-O\-\_\-\-A\-D\-D}}
+\index{\-C\-O\-O\-P\-E\-R\-\_\-\-T\-O\-\_\-\-A\-D\-D@{\-C\-O\-O\-P\-E\-R\-\_\-\-T\-O\-\_\-\-A\-D\-D}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{\-C\-O\-O\-P\-E\-R\-\_\-\-T\-O\-\_\-\-A\-D\-D}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf dominion.\-model.\-Player.\-C\-O\-O\-P\-E\-R\-\_\-\-T\-O\-\_\-\-A\-D\-D} = 7}}\label{interfacedominion_1_1model_1_1Player_ae528cf48cc76626325e6a77b183bfa1a}
+\-Anzahl der \-Kupferkarten die ein \-Spieler zu \-Beginn bekommt. \hypertarget{interfacedominion_1_1model_1_1Player_a332beaafb8b0f1c569d512bcdb7e3790}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!\-S\-T\-A\-R\-T\-\_\-\-C\-A\-R\-D\-\_\-\-C\-O\-U\-N\-T@{\-S\-T\-A\-R\-T\-\_\-\-C\-A\-R\-D\-\_\-\-C\-O\-U\-N\-T}}
+\index{\-S\-T\-A\-R\-T\-\_\-\-C\-A\-R\-D\-\_\-\-C\-O\-U\-N\-T@{\-S\-T\-A\-R\-T\-\_\-\-C\-A\-R\-D\-\_\-\-C\-O\-U\-N\-T}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{\-S\-T\-A\-R\-T\-\_\-\-C\-A\-R\-D\-\_\-\-C\-O\-U\-N\-T}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf dominion.\-model.\-Player.\-S\-T\-A\-R\-T\-\_\-\-C\-A\-R\-D\-\_\-\-C\-O\-U\-N\-T} = 5}}\label{interfacedominion_1_1model_1_1Player_a332beaafb8b0f1c569d512bcdb7e3790}
+\-Anzahl der \-Startkarten eines \-Spielers. \hypertarget{interfacedominion_1_1model_1_1Player_ae50f344d32fbc00a964ad8afcc2980d5}{\index{dominion\-::model\-::\-Player@{dominion\-::model\-::\-Player}!\-V\-I\-C\-T\-O\-R\-Y\-\_\-\-C\-A\-R\-D\-S\-\_\-\-T\-O\-\_\-\-A\-D\-D@{\-V\-I\-C\-T\-O\-R\-Y\-\_\-\-C\-A\-R\-D\-S\-\_\-\-T\-O\-\_\-\-A\-D\-D}}
+\index{\-V\-I\-C\-T\-O\-R\-Y\-\_\-\-C\-A\-R\-D\-S\-\_\-\-T\-O\-\_\-\-A\-D\-D@{\-V\-I\-C\-T\-O\-R\-Y\-\_\-\-C\-A\-R\-D\-S\-\_\-\-T\-O\-\_\-\-A\-D\-D}!dominion::model::Player@{dominion\-::model\-::\-Player}}
+\subsubsection[{\-V\-I\-C\-T\-O\-R\-Y\-\_\-\-C\-A\-R\-D\-S\-\_\-\-T\-O\-\_\-\-A\-D\-D}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf dominion.\-model.\-Player.\-V\-I\-C\-T\-O\-R\-Y\-\_\-\-C\-A\-R\-D\-S\-\_\-\-T\-O\-\_\-\-A\-D\-D} = 3}}\label{interfacedominion_1_1model_1_1Player_ae50f344d32fbc00a964ad8afcc2980d5}
+\-Anzahl der \-Siegeskarten die ein \-Spieler zu \-Beginn bekommt. 
+
+\-The documentation for this interface was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/dominion/model/\-Player.\-java\end{DoxyCompactItemize}

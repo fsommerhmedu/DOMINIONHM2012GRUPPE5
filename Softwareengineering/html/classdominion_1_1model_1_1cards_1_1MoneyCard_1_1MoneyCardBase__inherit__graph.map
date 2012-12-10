@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node10" href="$classdominion_1_1model_1_1cards_1_1MoneyCard_1_1MoneyCardCooper.html" title="{dominion.model.cards.MoneyCard.MoneyCardCooper\n||+ MoneyCardCooper()\l+ play()\l}" alt="" coords="5,633,339,735"/>
+<area shape="rect" id="node12" href="$classdominion_1_1model_1_1cards_1_1MoneyCard_1_1MoneyCardGold.html" title="{dominion.model.cards.MoneyCard.MoneyCardGold\n||+ MoneyCardGold()\l+ play()\l}" alt="" coords="363,633,680,735"/>
+<area shape="rect" id="node14" href="$classdominion_1_1model_1_1cards_1_1MoneyCard_1_1MoneyCardSilver.html" title="{dominion.model.cards.MoneyCard.MoneyCardSilver\n||+ MoneyCardSilver()\l+ play()\l}" alt="" coords="704,633,1027,735"/>
+<area shape="rect" id="node2" href="$classdominion_1_1model_1_1cards_1_1CardBase.html" title="{dominion.model.cards.CardBase\n|# NOT_NEEDED\l|+ CardBase()\l+ getResourceNameSmall()\l+ getResourceSmallAsStream()\l+ getResourceBigAsStream()\l+ getResourceNameBig()\l+ getName()\l+ getCost()\l}" alt="" coords="279,243,489,432"/>
+<area shape="rect" id="node4" href="$interfacedominion_1_1model_1_1cards_1_1Card.html" title="{dominion.model.cards.Card\n||+ getName()\l+ play()\l+ getResourceNameSmall()\l+ getResourceSmallAsStream()\l+ getResourceNameBig()\l+ getResourceBigAsStream()\l+ getCost()\l}" alt="" coords="419,5,624,195"/>
+<area shape="rect" id="node6" href="$interfacedominion_1_1model_1_1cards_1_1MoneyCard_1_1MoneyCard.html" title="{dominion.model.cards.MoneyCard.MoneyCard\n||+ getName()\l+ getValue()\l}" alt="" coords="513,286,804,389"/>
+</map>

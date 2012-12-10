@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classdominion_1_1model_1_1cards_1_1CardBase.html" title="{dominion.model.cards.CardBase\n|# NOT_NEEDED\l|+ CardBase()\l+ getResourceNameSmall()\l+ getResourceSmallAsStream()\l+ getResourceBigAsStream()\l+ getResourceNameBig()\l+ getName()\l+ getCost()\l}" alt="" coords="5,243,216,432"/>
+<area shape="rect" id="node4" href="$interfacedominion_1_1model_1_1cards_1_1Card.html" title="{dominion.model.cards.Card\n||+ getName()\l+ play()\l+ getResourceNameSmall()\l+ getResourceSmallAsStream()\l+ getResourceNameBig()\l+ getResourceBigAsStream()\l+ getCost()\l}" alt="" coords="145,5,351,195"/>
+<area shape="rect" id="node6" href="$interfacedominion_1_1model_1_1cards_1_1MoneyCard_1_1MoneyCard.html" title="{dominion.model.cards.MoneyCard.MoneyCard\n||+ getName()\l+ getValue()\l}" alt="" coords="240,286,531,389"/>
+</map>

@@ -1,0 +1,16 @@
+Hinweise zur Installation von SWTBot:
+SWTBot ist nicht im Maven Repository vorhanden und muss daher im Moment noch lokal installiert werden.
+
+=== 1. Schritt ====
+Archiv downloaden und entpacken:
+http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/technology/swtbot/helios/dev-build/org.eclipse.swtbot-2.0.0.568-dev-e36.zip
+
+=== 2. Schritt ====
+Im Jeweiligen Ordner folgende Befehle ausführen:
+
+mvn install:install-file -Dfile="org.eclipse.swtbot.junit4_x_2.0.0.568-dev-e36.jar" -DgroupId=org.eclipse.swtbot -DartifactId=junit4_x -Dversion=2.0.0.568 -Dpackaging=jar
+
+mvn install:install-file -Dfile="org.eclipse.swtbot.swt.finder_2.0.0.568-dev-e36.jar" -DgroupId=org.eclipse.swtbot.swt -DartifactId=finder -Dversion=2.0.0.568 -Dpackaging=jar
+
+
+Mit ein bisschen Glück sollte Maven SWTBot jetzt finden ;)

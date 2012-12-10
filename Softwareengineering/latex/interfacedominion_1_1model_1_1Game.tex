@@ -1,0 +1,275 @@
+\hypertarget{interfacedominion_1_1model_1_1Game}{\section{dominion.\-model.\-Game \-Interface \-Reference}
+\label{interfacedominion_1_1model_1_1Game}\index{dominion.\-model.\-Game@{dominion.\-model.\-Game}}
+}
+
+
+\-Inheritance diagram for dominion.\-model.\-Game\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{interfacedominion_1_1model_1_1Game__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Game_a0f0a112c9e65158ed35b31eee39a90ab}{add\-Player} (\hyperlink{interfacedominion_1_1model_1_1Player}{\-Player} player)
+\item 
+int \hyperlink{interfacedominion_1_1model_1_1Game_a15f55987f9af6c4edb717ffce99e4df1}{get\-Player\-Count} ()
+\item 
+\hyperlink{interfacedominion_1_1model_1_1Player}{\-Player} \hyperlink{interfacedominion_1_1model_1_1Game_aa6f8e5780c5655418302555f3a398396}{get\-Player} (int index)
+\item 
+int \hyperlink{interfacedominion_1_1model_1_1Game_a456d7c45ddf88bdea357b7a6fbc8ae4a}{get\-Index} (\hyperlink{interfacedominion_1_1model_1_1Player}{\-Player} player)
+\item 
+int \hyperlink{interfacedominion_1_1model_1_1Game_a4128e6069773d06e9380364ba914699f}{get\-Current\-Player\-Index} ()
+\item 
+\hyperlink{interfacedominion_1_1model_1_1Player}{\-Player} \hyperlink{interfacedominion_1_1model_1_1Game_a1d0d3b3f71201f4c39828eaf84ab108b}{get\-Current\-Player} ()
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Game_aa61f5a52bd12f6b9d3a563b157bdfe5a}{set\-Current\-Player} (final int index)
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Game_a1d2ee8cbe1f2efdd3827d5122466214c}{add\-Card} (\hyperlink{interfacedominion_1_1model_1_1cards_1_1Card}{\-Card} card)
+\item 
+\-List$<$ \hyperlink{interfacedominion_1_1model_1_1cards_1_1Card}{\-Card} $>$ \hyperlink{interfacedominion_1_1model_1_1Game_aa3bad1b2af84bc74977623b08dc60003}{get\-Cards} ()
+\item 
+\hyperlink{enumdominion_1_1common_1_1GameState}{\-Game\-State} \hyperlink{interfacedominion_1_1model_1_1Game_a9f57304d4d35a13e715dbe5e8b44194f}{get\-Game\-State} ()
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Game_ae8a41a10cc6f55e614846cc2b715f260}{set\-Game\-State} (\hyperlink{enumdominion_1_1common_1_1GameState}{\-Game\-State} state)
+\item 
+\hyperlink{enumdominion_1_1common_1_1GamePhase}{\-Game\-Phase} \hyperlink{interfacedominion_1_1model_1_1Game_a49504a84f1c62bed78cc9e8c0f1723a1}{get\-Phase} ()
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Game_a3c23e993203429d715ba2a1de6f58d07}{set\-Phase} (\hyperlink{enumdominion_1_1common_1_1GamePhase}{\-Game\-Phase} phase)
+\item 
+void \hyperlink{interfacedominion_1_1model_1_1Game_a1e88c414715e878b07c91c2e16f76335}{clear} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Model \-Interface.
+
+\begin{DoxyAuthor}{\-Author}
+\-Moe 
+\end{DoxyAuthor}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{interfacedominion_1_1model_1_1Game_a1d2ee8cbe1f2efdd3827d5122466214c}{\index{dominion\-::model\-::\-Game@{dominion\-::model\-::\-Game}!add\-Card@{add\-Card}}
+\index{add\-Card@{add\-Card}!dominion::model::Game@{dominion\-::model\-::\-Game}}
+\subsubsection[{add\-Card}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Game.\-add\-Card} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Card}}]{card}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Game_a1d2ee8cbe1f2efdd3827d5122466214c}
+\-Fügt eine \-Karte zu dem \-Aktuellen \-Kartendeck hinzu.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em card} & \-Karte die hinzugefügt werden soll. \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacedominion_1_1model_1_1Game_a0f0a112c9e65158ed35b31eee39a90ab}{\index{dominion\-::model\-::\-Game@{dominion\-::model\-::\-Game}!add\-Player@{add\-Player}}
+\index{add\-Player@{add\-Player}!dominion::model::Game@{dominion\-::model\-::\-Game}}
+\subsubsection[{add\-Player}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Game.\-add\-Player} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Player}}]{player}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Game_a0f0a112c9e65158ed35b31eee39a90ab}
+\-Fügt einen \-Spieler zu den aktuellen \-Spieler hinzu.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em player} & \-Spieler, der hinzugefügt werden soll. \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacedominion_1_1model_1_1Game_a1e88c414715e878b07c91c2e16f76335}{\index{dominion\-::model\-::\-Game@{dominion\-::model\-::\-Game}!clear@{clear}}
+\index{clear@{clear}!dominion::model::Game@{dominion\-::model\-::\-Game}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Game.\-clear} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Game_a1e88c414715e878b07c91c2e16f76335}
+\-Clears the model so a new game can be started with the same model. 
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1GameImpl_ad34422019e2acc8fc2550759ae2da0c2}{dominion.\-model.\-Game\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Game_aa3bad1b2af84bc74977623b08dc60003}{\index{dominion\-::model\-::\-Game@{dominion\-::model\-::\-Game}!get\-Cards@{get\-Cards}}
+\index{get\-Cards@{get\-Cards}!dominion::model::Game@{dominion\-::model\-::\-Game}}
+\subsubsection[{get\-Cards}]{\setlength{\rightskip}{0pt plus 5cm}\-List$<${\bf \-Card}$>$ {\bf dominion.\-model.\-Game.\-get\-Cards} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Game_aa3bad1b2af84bc74977623b08dc60003}
+\-Gibt eine unmodifizierbare \-Liste der \-Karten zurück.
+
+\begin{DoxyReturn}{\-Returns}
+alle \-Karten. 
+\end{DoxyReturn}
+
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1GameImpl_a58d9e3287f5916ad9394cd7fa2a94553}{dominion.\-model.\-Game\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Game_a1d0d3b3f71201f4c39828eaf84ab108b}{\index{dominion\-::model\-::\-Game@{dominion\-::model\-::\-Game}!get\-Current\-Player@{get\-Current\-Player}}
+\index{get\-Current\-Player@{get\-Current\-Player}!dominion::model::Game@{dominion\-::model\-::\-Game}}
+\subsubsection[{get\-Current\-Player}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Player} {\bf dominion.\-model.\-Game.\-get\-Current\-Player} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Game_a1d0d3b3f71201f4c39828eaf84ab108b}
+\-Gibt den aktuellen \-Spieler zurück.
+
+\begin{DoxyReturn}{\-Returns}
+aktueller \-Spieler. 
+\end{DoxyReturn}
+
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1GameImpl_ab260680f1cce00a1499b81298eaac81c}{dominion.\-model.\-Game\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Game_a4128e6069773d06e9380364ba914699f}{\index{dominion\-::model\-::\-Game@{dominion\-::model\-::\-Game}!get\-Current\-Player\-Index@{get\-Current\-Player\-Index}}
+\index{get\-Current\-Player\-Index@{get\-Current\-Player\-Index}!dominion::model::Game@{dominion\-::model\-::\-Game}}
+\subsubsection[{get\-Current\-Player\-Index}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf dominion.\-model.\-Game.\-get\-Current\-Player\-Index} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Game_a4128e6069773d06e9380364ba914699f}
+\-Gibt den index des aktuellen \-Spielers zurück.
+
+\begin{DoxyReturn}{\-Returns}
+aktueller \-Spieler-\/\-Index. 
+\end{DoxyReturn}
+
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1GameImpl_a531f1a8ff7b1823f80f7276268519194}{dominion.\-model.\-Game\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Game_a9f57304d4d35a13e715dbe5e8b44194f}{\index{dominion\-::model\-::\-Game@{dominion\-::model\-::\-Game}!get\-Game\-State@{get\-Game\-State}}
+\index{get\-Game\-State@{get\-Game\-State}!dominion::model::Game@{dominion\-::model\-::\-Game}}
+\subsubsection[{get\-Game\-State}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Game\-State} {\bf dominion.\-model.\-Game.\-get\-Game\-State} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Game_a9f57304d4d35a13e715dbe5e8b44194f}
+\-Fragt den momentanen \-Zustand des \-Spiels ab.
+
+\begin{DoxyReturn}{\-Returns}
+\-Momentaner \-Spielstatus. 
+\end{DoxyReturn}
+
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1GameImpl_a91d75416beeffe65815312465fce7cee}{dominion.\-model.\-Game\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Game_a456d7c45ddf88bdea357b7a6fbc8ae4a}{\index{dominion\-::model\-::\-Game@{dominion\-::model\-::\-Game}!get\-Index@{get\-Index}}
+\index{get\-Index@{get\-Index}!dominion::model::Game@{dominion\-::model\-::\-Game}}
+\subsubsection[{get\-Index}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf dominion.\-model.\-Game.\-get\-Index} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Player}}]{player}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Game_a456d7c45ddf88bdea357b7a6fbc8ae4a}
+\-Liefert den \-Index eines \-Spielers.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em player} & \-Spieler. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-Index des \-Spielers oder -\/1, falls dieser \-Spieler nicht zu den aktuellen \-Spielern gehört. 
+\end{DoxyReturn}
+\hypertarget{interfacedominion_1_1model_1_1Game_a49504a84f1c62bed78cc9e8c0f1723a1}{\index{dominion\-::model\-::\-Game@{dominion\-::model\-::\-Game}!get\-Phase@{get\-Phase}}
+\index{get\-Phase@{get\-Phase}!dominion::model::Game@{dominion\-::model\-::\-Game}}
+\subsubsection[{get\-Phase}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Game\-Phase} {\bf dominion.\-model.\-Game.\-get\-Phase} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Game_a49504a84f1c62bed78cc9e8c0f1723a1}
+\-Gibt die aktuelle \-Phase zurück.
+
+\begin{DoxyReturn}{\-Returns}
+\-Phase. 
+\end{DoxyReturn}
+
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1GameImpl_aa32523c3926d105c8b2a0c62ad7c60c3}{dominion.\-model.\-Game\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Game_aa6f8e5780c5655418302555f3a398396}{\index{dominion\-::model\-::\-Game@{dominion\-::model\-::\-Game}!get\-Player@{get\-Player}}
+\index{get\-Player@{get\-Player}!dominion::model::Game@{dominion\-::model\-::\-Game}}
+\subsubsection[{get\-Player}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Player} {\bf dominion.\-model.\-Game.\-get\-Player} (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Game_aa6f8e5780c5655418302555f3a398396}
+\-Gibt den \-Spieler anhand eines \-Index zurück.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em index} & \-Index des \-Spielers. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-Spieler 
+\end{DoxyReturn}
+\hypertarget{interfacedominion_1_1model_1_1Game_a15f55987f9af6c4edb717ffce99e4df1}{\index{dominion\-::model\-::\-Game@{dominion\-::model\-::\-Game}!get\-Player\-Count@{get\-Player\-Count}}
+\index{get\-Player\-Count@{get\-Player\-Count}!dominion::model::Game@{dominion\-::model\-::\-Game}}
+\subsubsection[{get\-Player\-Count}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf dominion.\-model.\-Game.\-get\-Player\-Count} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Game_a15f55987f9af6c4edb717ffce99e4df1}
+\-Gibt die \-Anzahl der aktuellen \-Spieler zurück.
+
+\begin{DoxyReturn}{\-Returns}
+\-Anzahl aktueller \-Spieler. 
+\end{DoxyReturn}
+
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1GameImpl_abc80fba5f5fd4db66e5a13dd6b9be8d9}{dominion.\-model.\-Game\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Game_aa61f5a52bd12f6b9d3a563b157bdfe5a}{\index{dominion\-::model\-::\-Game@{dominion\-::model\-::\-Game}!set\-Current\-Player@{set\-Current\-Player}}
+\index{set\-Current\-Player@{set\-Current\-Player}!dominion::model::Game@{dominion\-::model\-::\-Game}}
+\subsubsection[{set\-Current\-Player}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Game.\-set\-Current\-Player} (
+\begin{DoxyParamCaption}
+\item[{final int}]{index}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Game_aa61f5a52bd12f6b9d3a563b157bdfe5a}
+\-Setzt den aktuellen \-Spieler auf den übergebenen \-Index-\/\-Wert.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em index} & \-Spieler-\/\-Index \\
+\hline
+\end{DoxyParams}
+
+
+\-Implemented in \hyperlink{classdominion_1_1model_1_1GameImpl_a54e645cb37bd4a083462a0e20068bae8}{dominion.\-model.\-Game\-Impl}.
+
+\hypertarget{interfacedominion_1_1model_1_1Game_ae8a41a10cc6f55e614846cc2b715f260}{\index{dominion\-::model\-::\-Game@{dominion\-::model\-::\-Game}!set\-Game\-State@{set\-Game\-State}}
+\index{set\-Game\-State@{set\-Game\-State}!dominion::model::Game@{dominion\-::model\-::\-Game}}
+\subsubsection[{set\-Game\-State}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Game.\-set\-Game\-State} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Game\-State}}]{state}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Game_ae8a41a10cc6f55e614846cc2b715f260}
+\-Setzt den aktuellen \-Spielstatus.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em state} & \-Status des \-Spiels \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacedominion_1_1model_1_1Game_a3c23e993203429d715ba2a1de6f58d07}{\index{dominion\-::model\-::\-Game@{dominion\-::model\-::\-Game}!set\-Phase@{set\-Phase}}
+\index{set\-Phase@{set\-Phase}!dominion::model::Game@{dominion\-::model\-::\-Game}}
+\subsubsection[{set\-Phase}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-model.\-Game.\-set\-Phase} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Game\-Phase}}]{phase}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1model_1_1Game_a3c23e993203429d715ba2a1de6f58d07}
+\-Setzt die aktuelle \-Phase.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em phase} & \-Aktuelle \-Phase. \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this interface was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/dominion/model/\-Game.\-java\end{DoxyCompactItemize}

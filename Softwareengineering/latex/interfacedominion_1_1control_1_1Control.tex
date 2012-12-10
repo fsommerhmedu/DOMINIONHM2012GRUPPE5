@@ -1,0 +1,183 @@
+\hypertarget{interfacedominion_1_1control_1_1Control}{\section{dominion.\-control.\-Control \-Interface \-Reference}
+\label{interfacedominion_1_1control_1_1Control}\index{dominion.\-control.\-Control@{dominion.\-control.\-Control}}
+}
+
+
+\-Inheritance diagram for dominion.\-control.\-Control\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{interfacedominion_1_1control_1_1Control__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{interfacedominion_1_1control_1_1Control_ab56d2c677d28c1057d778e8c612fca32}{create\-Players} (\-List$<$ \-String $>$ names)
+\item 
+\hyperlink{interfacedominion_1_1model_1_1Player}{\-Player} \hyperlink{interfacedominion_1_1control_1_1Control_aba420bb2b223beb828a7bcf1158abc57}{create\-Player} (\-String name)
+\item 
+void \hyperlink{interfacedominion_1_1control_1_1Control_a4ce0cf943175932b2b2e0df91cb55307}{start\-Game} ()
+\item 
+void \hyperlink{interfacedominion_1_1control_1_1Control_a8d3da0166736b7f786925d6cdca56ec0}{start\-New\-Game} ()
+\item 
+void \hyperlink{interfacedominion_1_1control_1_1Control_af4dd1bfacfdbd6c4d9b60aed99f515e3}{add\-Cards} (\-Card...\-cards)
+\item 
+void \hyperlink{interfacedominion_1_1control_1_1Control_a897322aa99b10418425b5ce0f799d17e}{next\-Player} (boolean reset\-Player)
+\item 
+void \hyperlink{interfacedominion_1_1control_1_1Control_a630ad524600d28db3b01c0cc3407c9f9}{next\-Phase} ()
+\item 
+void \hyperlink{interfacedominion_1_1control_1_1Control_a7f51535a44addff1d895149be71b8c89}{exit\-Game} ()
+\item 
+void \hyperlink{interfacedominion_1_1control_1_1Control_aa98523f28b63d0b7d90b398a3a891594}{start\-Playing} ()
+\item 
+boolean \hyperlink{interfacedominion_1_1control_1_1Control_a71598562ac3a8ff3cb67bf968142f5f7}{buy\-Card} (\hyperlink{interfacedominion_1_1model_1_1cards_1_1Card}{\-Card} c)
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\hyperlink{interfacedominion_1_1control_1_1Control}{\-Control} interface.
+
+\begin{DoxyAuthor}{\-Author}
+\-Martin 
+\end{DoxyAuthor}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{interfacedominion_1_1control_1_1Control_af4dd1bfacfdbd6c4d9b60aed99f515e3}{\index{dominion\-::control\-::\-Control@{dominion\-::control\-::\-Control}!add\-Cards@{add\-Cards}}
+\index{add\-Cards@{add\-Cards}!dominion::control::Control@{dominion\-::control\-::\-Control}}
+\subsubsection[{add\-Cards}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-control.\-Control.\-add\-Cards} (
+\begin{DoxyParamCaption}
+\item[{\-Card...}]{cards}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1control_1_1Control_af4dd1bfacfdbd6c4d9b60aed99f515e3}
+\-Fügt die \-Startkarten zu dem \-Spiel hinzu.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em cards} & \-Ein ode mehrere \-Karten die hinzugefügt werden sollen. \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacedominion_1_1control_1_1Control_a71598562ac3a8ff3cb67bf968142f5f7}{\index{dominion\-::control\-::\-Control@{dominion\-::control\-::\-Control}!buy\-Card@{buy\-Card}}
+\index{buy\-Card@{buy\-Card}!dominion::control::Control@{dominion\-::control\-::\-Control}}
+\subsubsection[{buy\-Card}]{\setlength{\rightskip}{0pt plus 5cm}boolean {\bf dominion.\-control.\-Control.\-buy\-Card} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Card}}]{c}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1control_1_1Control_a71598562ac3a8ff3cb67bf968142f5f7}
+\-Aktueller \-Spieler kauft die \-Karte c. \-Bei \-Erfolg wird true zurückgegeben.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em c} & \-Karte die gekauft wird \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-Wert, ob \-Einkauf erfolgreich 
+\end{DoxyReturn}
+\hypertarget{interfacedominion_1_1control_1_1Control_aba420bb2b223beb828a7bcf1158abc57}{\index{dominion\-::control\-::\-Control@{dominion\-::control\-::\-Control}!create\-Player@{create\-Player}}
+\index{create\-Player@{create\-Player}!dominion::control::Control@{dominion\-::control\-::\-Control}}
+\subsubsection[{create\-Player}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Player} {\bf dominion.\-control.\-Control.\-create\-Player} (
+\begin{DoxyParamCaption}
+\item[{\-String}]{name}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1control_1_1Control_aba420bb2b223beb828a7bcf1158abc57}
+\-Erzeugt einen einzelnen \-Spieler und gibt diesen zurück.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em name} & \-Name des \-Spielers. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-Instanz des \-Spielers 
+\end{DoxyReturn}
+\hypertarget{interfacedominion_1_1control_1_1Control_ab56d2c677d28c1057d778e8c612fca32}{\index{dominion\-::control\-::\-Control@{dominion\-::control\-::\-Control}!create\-Players@{create\-Players}}
+\index{create\-Players@{create\-Players}!dominion::control::Control@{dominion\-::control\-::\-Control}}
+\subsubsection[{create\-Players}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-control.\-Control.\-create\-Players} (
+\begin{DoxyParamCaption}
+\item[{\-List$<$ \-String $>$}]{names}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1control_1_1Control_ab56d2c677d28c1057d778e8c612fca32}
+\-Erzeugt mehrere \-Spieler.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em names} & \-Erstellt mehrere \-Spieler anhand einer \-Liste aus \-Strings. \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacedominion_1_1control_1_1Control_a7f51535a44addff1d895149be71b8c89}{\index{dominion\-::control\-::\-Control@{dominion\-::control\-::\-Control}!exit\-Game@{exit\-Game}}
+\index{exit\-Game@{exit\-Game}!dominion::control::Control@{dominion\-::control\-::\-Control}}
+\subsubsection[{exit\-Game}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-control.\-Control.\-exit\-Game} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1control_1_1Control_a7f51535a44addff1d895149be71b8c89}
+\-Spiel beenden. 
+
+\-Implemented in \hyperlink{classdominion_1_1control_1_1ControlImpl_a7bd53f8952dac44a2584e7f8cd3f1034}{dominion.\-control.\-Control\-Impl}.
+
+\hypertarget{interfacedominion_1_1control_1_1Control_a630ad524600d28db3b01c0cc3407c9f9}{\index{dominion\-::control\-::\-Control@{dominion\-::control\-::\-Control}!next\-Phase@{next\-Phase}}
+\index{next\-Phase@{next\-Phase}!dominion::control::Control@{dominion\-::control\-::\-Control}}
+\subsubsection[{next\-Phase}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-control.\-Control.\-next\-Phase} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1control_1_1Control_a630ad524600d28db3b01c0cc3407c9f9}
+\-Beendet die aktuelle \-Phase und geht in die nächste \-Phase über. \-Falls die aktuelle \-Phase die letzte \-Phase ist, ist automatisch der nächste \-Spieler an der \-Reihe. 
+
+\-Implemented in \hyperlink{classdominion_1_1control_1_1ControlImpl_a925fe1cb6ade0a4aa37153a1f07b3dd3}{dominion.\-control.\-Control\-Impl}.
+
+\hypertarget{interfacedominion_1_1control_1_1Control_a897322aa99b10418425b5ce0f799d17e}{\index{dominion\-::control\-::\-Control@{dominion\-::control\-::\-Control}!next\-Player@{next\-Player}}
+\index{next\-Player@{next\-Player}!dominion::control::Control@{dominion\-::control\-::\-Control}}
+\subsubsection[{next\-Player}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-control.\-Control.\-next\-Player} (
+\begin{DoxyParamCaption}
+\item[{boolean}]{reset\-Player}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1control_1_1Control_a897322aa99b10418425b5ce0f799d17e}
+\-Gibt die \-Kontrolle an den nächsten \-Spieler weiter.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em reset\-Player} & true, wenn \-Karten neu gegeben werden sollen \\
+\hline
+\end{DoxyParams}
+\hypertarget{interfacedominion_1_1control_1_1Control_a4ce0cf943175932b2b2e0df91cb55307}{\index{dominion\-::control\-::\-Control@{dominion\-::control\-::\-Control}!start\-Game@{start\-Game}}
+\index{start\-Game@{start\-Game}!dominion::control::Control@{dominion\-::control\-::\-Control}}
+\subsubsection[{start\-Game}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-control.\-Control.\-start\-Game} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1control_1_1Control_a4ce0cf943175932b2b2e0df91cb55307}
+\-Spiel starten. 
+
+\-Implemented in \hyperlink{classdominion_1_1control_1_1ControlImpl_aca20e5798f9ff538cdab05d4f7db902f}{dominion.\-control.\-Control\-Impl}.
+
+\hypertarget{interfacedominion_1_1control_1_1Control_a8d3da0166736b7f786925d6cdca56ec0}{\index{dominion\-::control\-::\-Control@{dominion\-::control\-::\-Control}!start\-New\-Game@{start\-New\-Game}}
+\index{start\-New\-Game@{start\-New\-Game}!dominion::control::Control@{dominion\-::control\-::\-Control}}
+\subsubsection[{start\-New\-Game}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-control.\-Control.\-start\-New\-Game} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1control_1_1Control_a8d3da0166736b7f786925d6cdca56ec0}
+\-Startet ein neues \-Spiel. 
+
+\-Implemented in \hyperlink{classdominion_1_1control_1_1ControlImpl_aa22233635bdcbce49a8480c1848dbb62}{dominion.\-control.\-Control\-Impl}.
+
+\hypertarget{interfacedominion_1_1control_1_1Control_aa98523f28b63d0b7d90b398a3a891594}{\index{dominion\-::control\-::\-Control@{dominion\-::control\-::\-Control}!start\-Playing@{start\-Playing}}
+\index{start\-Playing@{start\-Playing}!dominion::control::Control@{dominion\-::control\-::\-Control}}
+\subsubsection[{start\-Playing}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf dominion.\-control.\-Control.\-start\-Playing} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacedominion_1_1control_1_1Control_aa98523f28b63d0b7d90b398a3a891594}
+\-Startet das \-Spielen, wenn die \-Karten und die \-Spieler festgelegt wurden. 
+
+\-Implemented in \hyperlink{classdominion_1_1control_1_1ControlImpl_aa8f593b871a78d5899195ba01dfe0f76}{dominion.\-control.\-Control\-Impl}.
+
+
+
+\-The documentation for this interface was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/dominion/control/\-Control.\-java\end{DoxyCompactItemize}

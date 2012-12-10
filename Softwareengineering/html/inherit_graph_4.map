@@ -1,0 +1,27 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classdominion_1_1control_1_1cards_1_1ControlBase.html" title="dominion.control.cards.ControlBase" alt="" coords="5,619,235,648"/>
+<area shape="rect" id="node3" href="$classdominion_1_1control_1_1cards_1_1AdventureControl.html" title="dominion.control.cards.AdventureControl" alt="" coords="293,5,552,35"/>
+<area shape="rect" id="node5" href="$classdominion_1_1control_1_1cards_1_1BureaucratControl.html" title="dominion.control.cards.BureaucratControl" alt="" coords="292,59,553,88"/>
+<area shape="rect" id="node7" href="$classdominion_1_1control_1_1cards_1_1CellarControl.html" title="dominion.control.cards.CellarControl" alt="" coords="307,112,539,141"/>
+<area shape="rect" id="node9" href="$classdominion_1_1control_1_1cards_1_1ChancellorControl.html" title="dominion.control.cards.ChancellorControl" alt="" coords="292,165,553,195"/>
+<area shape="rect" id="node11" href="$classdominion_1_1control_1_1cards_1_1ChapelControl.html" title="dominion.control.cards.ChapelControl" alt="" coords="303,219,543,248"/>
+<area shape="rect" id="node13" href="$classdominion_1_1control_1_1cards_1_1CouncilRoomControl.html" title="dominion.control.cards.CouncilRoomControl" alt="" coords="284,272,561,301"/>
+<area shape="rect" id="node15" href="$classdominion_1_1control_1_1cards_1_1FeastControl.html" title="dominion.control.cards.FeastControl" alt="" coords="307,325,539,355"/>
+<area shape="rect" id="node17" href="$classdominion_1_1control_1_1cards_1_1FestivalControl.html" title="dominion.control.cards.FestivalControl" alt="" coords="300,379,545,408"/>
+<area shape="rect" id="node19" href="$classdominion_1_1control_1_1cards_1_1LaboratoryControl.html" title="dominion.control.cards.LaboratoryControl" alt="" coords="293,432,552,461"/>
+<area shape="rect" id="node21" href="$classdominion_1_1control_1_1cards_1_1LibraryControl.html" title="dominion.control.cards.LibraryControl" alt="" coords="304,485,541,515"/>
+<area shape="rect" id="node23" href="$classdominion_1_1control_1_1cards_1_1MarketControl.html" title="dominion.control.cards.MarketControl" alt="" coords="304,539,541,568"/>
+<area shape="rect" id="node25" href="$classdominion_1_1control_1_1cards_1_1MilitiaControl.html" title="dominion.control.cards.MilitiaControl" alt="" coords="307,592,539,621"/>
+<area shape="rect" id="node27" href="$classdominion_1_1control_1_1cards_1_1MineControl.html" title="dominion.control.cards.MineControl" alt="" coords="309,645,536,675"/>
+<area shape="rect" id="node29" href="$classdominion_1_1control_1_1cards_1_1MoatControl.html" title="dominion.control.cards.MoatControl" alt="" coords="309,699,536,728"/>
+<area shape="rect" id="node31" href="$classdominion_1_1control_1_1cards_1_1MoneylenderControl.html" title="dominion.control.cards.MoneylenderControl" alt="" coords="287,752,559,781"/>
+<area shape="rect" id="node33" href="$classdominion_1_1control_1_1cards_1_1RemodelControl.html" title="dominion.control.cards.RemodelControl" alt="" coords="297,805,548,835"/>
+<area shape="rect" id="node35" href="$classdominion_1_1control_1_1cards_1_1SmithyControl.html" title="dominion.control.cards.SmithyControl" alt="" coords="303,859,543,888"/>
+<area shape="rect" id="node37" href="$classdominion_1_1control_1_1cards_1_1SpyControl.html" title="dominion.control.cards.SpyControl" alt="" coords="312,912,533,941"/>
+<area shape="rect" id="node39" href="$classdominion_1_1control_1_1cards_1_1ThiefControl.html" title="dominion.control.cards.ThiefControl" alt="" coords="309,965,536,995"/>
+<area shape="rect" id="node41" href="$classdominion_1_1control_1_1cards_1_1ThroneRoomControl.html" title="dominion.control.cards.ThroneRoomControl" alt="" coords="285,1019,560,1048"/>
+<area shape="rect" id="node43" href="$classdominion_1_1control_1_1cards_1_1VillageControl.html" title="dominion.control.cards.VillageControl" alt="" coords="304,1072,541,1101"/>
+<area shape="rect" id="node45" href="$classdominion_1_1control_1_1cards_1_1WitchControl.html" title="dominion.control.cards.WitchControl" alt="" coords="307,1125,539,1155"/>
+<area shape="rect" id="node47" href="$classdominion_1_1control_1_1cards_1_1WoodcutterControl.html" title="dominion.control.cards.WoodcutterControl" alt="" coords="289,1179,556,1208"/>
+<area shape="rect" id="node49" href="$classdominion_1_1control_1_1cards_1_1WorkshopControl.html" title="dominion.control.cards.WorkshopControl" alt="" coords="293,1232,552,1261"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classdominion_1_1view_1_1GameScreen.html" title="{dominion.view.GameScreen\n|~ ZOOM\l~ BETA\l|+ GameScreen()\l+ display()\l}" alt="" coords="5,347,189,467"/>
+<area shape="rect" id="node5" href="$classdominion_1_1view_1_1SelectCards.html" title="{dominion.view.SelectCards\n||+ SelectCards()\l+ chooseCards()\l+ display()\l}" alt="" coords="213,347,395,467"/>
+<area shape="rect" id="node7" href="$classdominion_1_1view_1_1SelectPlayers.html" title="{dominion.view.SelectPlayers\n||+ SelectPlayers()\l+ inputPlayerNames()\l+ display()\l}" alt="" coords="419,347,608,467"/>
+<area shape="rect" id="node9" href="$classdominion_1_1view_1_1StartScreen.html" title="{dominion.view.StartScreen\n||+ StartScreen()\l+ display()\l}" alt="" coords="632,355,811,458"/>
+</map>

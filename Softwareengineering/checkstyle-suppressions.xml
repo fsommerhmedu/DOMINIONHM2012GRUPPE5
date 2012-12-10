@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suppressions PUBLIC
+     "-//Puppy Crawl//DTD Suppressions 1.0//EN"
+     "http://www.puppycrawl.com/dtds/suppressions_1_0.dtd">
+
+<suppressions>
+  <suppress checks="MagicNumberCheck"
+             files="LibraryControl.java"
+	     lines="31" />
+  <suppress checks="MagicNumberCheck"
+             files="MineControl.java"
+	     lines="37" />
+  <suppress checks="MagicNumberCheck"
+             files="ThroneRoomControl.java"
+	     lines="30" />
+  <suppress checks="MagicNumberCheck"
+             files="PlayerImpl.java"
+	     lines="168-169" />
+  <suppress checks="MagicNumberCheck"
+             files="SWTBotTest.java"
+	     lines="426-437" />
+  <suppress checks="MagicNumberCheck"
+             files="GameScreen.java"
+	     lines="66,72,77,92,107,93-157" />
+  <suppress checks="MagicNumberCheck"
+             files="SelectCards.java"
+	     lines="91" />
+  <suppress checks="MagicNumberCheck"
+             files="SelectPlayers.java"
+	     lines="181" />
+  <suppress checks="DesignForExtension"
+	     files="MoneyCardBase.java"
+	     lines="28"/>
+  <suppress checks="DesignForExtension"
+	     files="VictoryCardBase.java"
+	     lines="29"/>
+  <suppress checks="MethodLength"
+	     files="GameScreen.java"
+	     lines="200"/>
+</suppressions>

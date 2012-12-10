@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classdominion_1_1view_1_1utils_1_1SWTBotBase.html" title="dominion.view.utils.SWTBotBase" alt="" coords="7,85,223,115"/>
+<area shape="rect" id="node3" href="$classdominion_1_1view_1_1GameScreenTest.html" title="dominion.view.GameScreenTest" alt="" coords="280,5,491,35"/>
+<area shape="rect" id="node5" href="$classdominion_1_1view_1_1MessageDialogTest.html" title="dominion.view.MessageDialogTest" alt="" coords="273,59,497,88"/>
+<area shape="rect" id="node7" href="$classdominion_1_1view_1_1SelectCardsTest.html" title="dominion.view.SelectCardsTest" alt="" coords="283,112,488,141"/>
+<area shape="rect" id="node9" href="$classdominion_1_1view_1_1SelectPlayersTest.html" title="dominion.view.SelectPlayersTest" alt="" coords="277,165,493,195"/>
+</map>

@@ -1,0 +1,3 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$interfacedominion_1_1model_1_1Player.html" title="{dominion.model.Player\n|+ BEGIN_PURCHASE\l+ COOPER_TO_ADD\l+ START_CARD_COUNT\l+ VICTORY_CARDS_TO_ADD\l+ BEGIN_ACTION\l|+ getName()\l+ addActions()\l+ getActionCounter()\l+ getPurchaseCounter()\l+ addPurchase()\l+ getCardsOnHand()\l+ throwCardsOnHandAway()\l+ getUppestCard()\l+ addCardToCards()\l+ movePlayedCardsToCards()\land 12 more...}" alt="" coords="20,5,231,333"/>
+</map>

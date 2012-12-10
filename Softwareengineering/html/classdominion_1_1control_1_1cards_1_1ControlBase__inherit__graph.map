@@ -1,0 +1,26 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classdominion_1_1control_1_1cards_1_1AdventureControl.html" title="{dominion.control.cards.AdventureControl\n||+ AdventureControl()\l+ play()\l}" alt="" coords="5,174,264,277"/>
+<area shape="rect" id="node5" href="$classdominion_1_1control_1_1cards_1_1BureaucratControl.html" title="{dominion.control.cards.BureaucratControl\n||+ BureaucratControl()\l+ play()\l}" alt="" coords="288,174,549,277"/>
+<area shape="rect" id="node7" href="$classdominion_1_1control_1_1cards_1_1CellarControl.html" title="{dominion.control.cards.CellarControl\n||+ CellarControl()\l+ play()\l}" alt="" coords="573,174,805,277"/>
+<area shape="rect" id="node9" href="$classdominion_1_1control_1_1cards_1_1ChancellorControl.html" title="{dominion.control.cards.ChancellorControl\n||+ ChancellorControl()\l+ play()\l}" alt="" coords="829,174,1091,277"/>
+<area shape="rect" id="node11" href="$classdominion_1_1control_1_1cards_1_1ChapelControl.html" title="{dominion.control.cards.ChapelControl\n||+ ChapelControl()\l+ play()\l}" alt="" coords="1115,174,1355,277"/>
+<area shape="rect" id="node13" href="$classdominion_1_1control_1_1cards_1_1CouncilRoomControl.html" title="{dominion.control.cards.CouncilRoomControl\n||+ CouncilRoomControl()\l+ play()\l}" alt="" coords="1379,174,1656,277"/>
+<area shape="rect" id="node15" href="$classdominion_1_1control_1_1cards_1_1FeastControl.html" title="{dominion.control.cards.FeastControl\n|+ MONEY_TO_ADD\l|+ FeastControl()\l+ play()\l}" alt="" coords="1680,174,1912,277"/>
+<area shape="rect" id="node17" href="$classdominion_1_1control_1_1cards_1_1FestivalControl.html" title="{dominion.control.cards.FestivalControl\n||+ FestivalControl()\l+ play()\l}" alt="" coords="1936,174,2181,277"/>
+<area shape="rect" id="node19" href="$classdominion_1_1control_1_1cards_1_1LaboratoryControl.html" title="{dominion.control.cards.LaboratoryControl\n||+ LaboratoryControl()\l+ play()\l}" alt="" coords="2205,174,2464,277"/>
+<area shape="rect" id="node21" href="$classdominion_1_1control_1_1cards_1_1LibraryControl.html" title="{dominion.control.cards.LibraryControl\n|+ MAX_CARDS_ON_HAND\l|+ LibraryControl()\l+ play()\l}" alt="" coords="2488,174,2725,277"/>
+<area shape="rect" id="node23" href="$classdominion_1_1control_1_1cards_1_1MarketControl.html" title="{dominion.control.cards.MarketControl\n||+ MarketControl()\l+ play()\l}" alt="" coords="2749,174,2987,277"/>
+<area shape="rect" id="node25" href="$classdominion_1_1control_1_1cards_1_1MilitiaControl.html" title="{dominion.control.cards.MilitiaControl\n||+ MilitiaControl()\l+ play()\l}" alt="" coords="3011,174,3243,277"/>
+<area shape="rect" id="node27" href="$classdominion_1_1control_1_1cards_1_1MineControl.html" title="{dominion.control.cards.MineControl\n||+ MineControl()\l+ play()\l}" alt="" coords="3267,174,3493,277"/>
+<area shape="rect" id="node29" href="$classdominion_1_1control_1_1cards_1_1MoatControl.html" title="{dominion.control.cards.MoatControl\n||+ MoatControl()\l+ play()\l}" alt="" coords="3517,174,3744,277"/>
+<area shape="rect" id="node31" href="$classdominion_1_1control_1_1cards_1_1MoneylenderControl.html" title="{dominion.control.cards.MoneylenderControl\n||+ MoneylenderControl()\l+ play()\l}" alt="" coords="3768,174,4040,277"/>
+<area shape="rect" id="node33" href="$classdominion_1_1control_1_1cards_1_1RemodelControl.html" title="{dominion.control.cards.RemodelControl\n||+ RemodelControl()\l+ play()\l}" alt="" coords="4064,174,4315,277"/>
+<area shape="rect" id="node35" href="$classdominion_1_1control_1_1cards_1_1SmithyControl.html" title="{dominion.control.cards.SmithyControl\n||+ SmithyControl()\l+ play()\l}" alt="" coords="4339,174,4579,277"/>
+<area shape="rect" id="node37" href="$classdominion_1_1control_1_1cards_1_1SpyControl.html" title="{dominion.control.cards.SpyControl\n||+ SpyControl()\l+ play()\l}" alt="" coords="4603,174,4824,277"/>
+<area shape="rect" id="node39" href="$classdominion_1_1control_1_1cards_1_1ThiefControl.html" title="{dominion.control.cards.ThiefControl\n||+ ThiefControl()\l+ play()\l}" alt="" coords="4848,174,5075,277"/>
+<area shape="rect" id="node41" href="$classdominion_1_1control_1_1cards_1_1ThroneRoomControl.html" title="{dominion.control.cards.ThroneRoomControl\n||+ ThroneRoomControl()\l+ play()\l}" alt="" coords="5099,174,5373,277"/>
+<area shape="rect" id="node43" href="$classdominion_1_1control_1_1cards_1_1VillageControl.html" title="{dominion.control.cards.VillageControl\n||+ VillageControl()\l+ play()\l}" alt="" coords="5397,174,5635,277"/>
+<area shape="rect" id="node45" href="$classdominion_1_1control_1_1cards_1_1WitchControl.html" title="{dominion.control.cards.WitchControl\n||+ WitchControl()\l+ play()\l}" alt="" coords="5659,174,5891,277"/>
+<area shape="rect" id="node47" href="$classdominion_1_1control_1_1cards_1_1WoodcutterControl.html" title="{dominion.control.cards.WoodcutterControl\n||+ WoodcutterControl()\l+ play()\l}" alt="" coords="5915,174,6181,277"/>
+<area shape="rect" id="node49" href="$classdominion_1_1control_1_1cards_1_1WorkshopControl.html" title="{dominion.control.cards.WorkshopControl\n||+ WorkshopControl()\l+ play()\l}" alt="" coords="6205,174,6464,277"/>
+</map>
